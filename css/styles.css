@@ -219,7 +219,7 @@ background-color: var(-secondary-background-color) ;
 .button-hero:hover,
 .button-secondary:active,
 .button-primery:active,
-.button-hero:active{
+.button-hero:active,{
     color: var(--color-blue);
 }
 
@@ -231,7 +231,13 @@ background-color: var(-secondary-background-color) ;
 .email{
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
-    line-height: 1.7143;
+    line-height: 1.7143;   
+}
+.email:hover,
+.email:focus,
+.phone:hover,
+.phone:focus{
+    color: var(--color-blue);
 }
 
 .address{
