@@ -98,9 +98,11 @@ img {
 }
 
 /* Hero */
+.hero {
+  background-color: var(--color-hero-background);
+}
 .hero-title {
   color: var(--color-white);
-  background-color: var(--color-hero-background);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.3636;
